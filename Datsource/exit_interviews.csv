@@ -1,0 +1,201 @@
+exit_id,employee_id,termination_date,exit_comment
+X0001,E0019,2025-08-31,Communication with leadership could have been stronger.
+X0002,E0021,2024-03-18,I received a stronger compensation offer elsewhere.
+X0003,E0023,2024-09-10,Additional coaching would have helped performance.
+X0004,E0028,2024-09-06,Salary growth was slower than industry standards.
+X0005,E0029,2024-10-03,"Leaving due to geographic relocation, no major concerns."
+X0006,E0033,2025-04-03,Additional coaching would have helped performance.
+X0007,E0034,2024-09-16,I learned a lot but wanted clearer career progression and mentorship.
+X0008,E0037,2024-01-05,Feedback cycles were inconsistent and difficult to interpret.
+X0009,E0039,2025-11-23,I learned a lot but wanted clearer career progression and mentorship.
+X0010,E0047,2025-11-05,Workload was consistently high and deadlines were tight.
+X0011,E0049,2025-08-15,I received a stronger compensation offer elsewhere.
+X0012,E0058,2025-06-07,Workload was consistently high and deadlines were tight.
+X0013,E0063,2023-05-03,Moving cities for family. The team was supportive.
+X0014,E0068,2025-01-16,The pace was intense and difficult to sustain.
+X0015,E0069,2024-05-07,Opportunities for advancement felt slow compared to expectations.
+X0016,E0078,2024-09-06,I enjoyed the team but growth felt limited and promotion criteria were unclear.
+X0017,E0079,2025-04-20,Relocating for personal reasons. Overall positive experience.
+X0018,E0087,2023-05-12,Moving cities for family. The team was supportive.
+X0019,E0095,2025-04-30,Expectations with my manager were not clearly aligned.
+X0020,E0098,2024-08-03,Communication with leadership could have been stronger.
+X0021,E0099,2024-02-26,Additional coaching would have helped performance.
+X0022,E0100,2024-04-28,Policies could be explained more clearly during onboarding.
+X0023,E0101,2023-08-14,Too many competing priorities led to burnout over time.
+X0024,E0103,2023-02-26,Relocating for personal reasons. Overall positive experience.
+X0025,E0113,2024-09-27,This situation was unfortunate but understandable.
+X0026,E0118,2025-06-12,I enjoyed the team but growth felt limited and promotion criteria were unclear.
+X0027,E0122,2023-03-17,Additional coaching would have helped performance.
+X0028,E0132,2023-12-21,Expectations with my manager were not clearly aligned.
+X0029,E0138,2024-05-19,I understand the decision and accept responsibility.
+X0030,E0157,2024-07-22,Policies could be explained more clearly during onboarding.
+X0031,E0161,2023-12-27,I enjoyed the team but growth felt limited and promotion criteria were unclear.
+X0032,E0169,2023-03-28,Communication with leadership could have been stronger.
+X0033,E0171,2025-06-03,Too many competing priorities led to burnout over time.
+X0034,E0174,2023-04-24,"Leaving due to geographic relocation, no major concerns."
+X0035,E0182,2023-06-21,Communication with leadership could have been stronger.
+X0036,E0184,2024-09-02,Communication with leadership could have been stronger.
+X0037,E0207,2025-04-13,Policies could be explained more clearly during onboarding.
+X0038,E0211,2023-07-04,Workload was consistently high and deadlines were tight.
+X0039,E0220,2023-10-15,Compensation did not match my responsibilities and market benchmarks.
+X0040,E0232,2025-10-21,Opportunities for advancement felt slow compared to expectations.
+X0041,E0241,2024-05-30,Moving cities for family. The team was supportive.
+X0042,E0251,2023-07-04,This situation was unfortunate but understandable.
+X0043,E0254,2023-09-08,I learned a lot but wanted clearer career progression and mentorship.
+X0044,E0268,2024-10-03,Relocating for personal reasons. Overall positive experience.
+X0045,E0270,2025-02-10,I learned a lot but wanted clearer career progression and mentorship.
+X0046,E0272,2025-10-17,I enjoyed the team but growth felt limited and promotion criteria were unclear.
+X0047,E0274,2025-05-16,I received a stronger compensation offer elsewhere.
+X0048,E0280,2023-08-07,Feedback cycles were inconsistent and difficult to interpret.
+X0049,E0292,2025-02-15,Role expectations were harder than anticipated.
+X0050,E0295,2024-06-04,This situation was unfortunate but understandable.
+X0051,E0301,2023-04-25,Additional coaching would have helped performance.
+X0052,E0305,2024-09-15,Role expectations were harder than anticipated.
+X0053,E0307,2023-08-20,The pace was intense and difficult to sustain.
+X0054,E0311,2025-05-17,This situation was unfortunate but understandable.
+X0055,E0313,2024-07-03,The pace was intense and difficult to sustain.
+X0056,E0320,2023-10-24,Additional coaching would have helped performance.
+X0057,E0323,2025-01-23,Role expectations were harder than anticipated.
+X0058,E0325,2023-02-13,Policies could be explained more clearly during onboarding.
+X0059,E0329,2025-02-18,I enjoyed the team but growth felt limited and promotion criteria were unclear.
+X0060,E0331,2023-04-22,Compensation did not match my responsibilities and market benchmarks.
+X0061,E0334,2024-05-05,Compensation did not match my responsibilities and market benchmarks.
+X0062,E0335,2025-02-26,I understand the decision and accept responsibility.
+X0063,E0345,2025-01-13,I struggled to meet expectations and needed more structured guidance.
+X0064,E0346,2023-09-07,I understand the decision and accept responsibility.
+X0065,E0348,2024-04-29,Salary growth was slower than industry standards.
+X0066,E0350,2025-02-19,I struggled to meet expectations and needed more structured guidance.
+X0067,E0352,2025-03-15,I struggled to meet expectations and needed more structured guidance.
+X0068,E0354,2024-06-07,Communication with leadership could have been stronger.
+X0069,E0358,2024-04-27,This situation was unfortunate but understandable.
+X0070,E0360,2023-11-25,Compensation did not match my responsibilities and market benchmarks.
+X0071,E0362,2024-10-11,Too many competing priorities led to burnout over time.
+X0072,E0366,2025-04-12,Salary growth was slower than industry standards.
+X0073,E0373,2024-07-15,Expectations with my manager were not clearly aligned.
+X0074,E0376,2025-10-03,I enjoyed the team but growth felt limited and promotion criteria were unclear.
+X0075,E0386,2025-04-25,I received a stronger compensation offer elsewhere.
+X0076,E0387,2024-11-12,Role expectations were harder than anticipated.
+X0077,E0390,2023-07-25,Feedback cycles were inconsistent and difficult to interpret.
+X0078,E0392,2024-06-18,I learned a lot but wanted clearer career progression and mentorship.
+X0079,E0393,2025-02-22,Relocating for personal reasons. Overall positive experience.
+X0080,E0399,2024-10-31,Salary growth was slower than industry standards.
+X0081,E0400,2023-02-26,Moving cities for family. The team was supportive.
+X0082,E0401,2024-01-12,I learned a lot but wanted clearer career progression and mentorship.
+X0083,E0412,2023-10-06,I enjoyed the team but growth felt limited and promotion criteria were unclear.
+X0084,E0422,2024-02-14,Additional coaching would have helped performance.
+X0085,E0432,2024-10-04,Feedback cycles were inconsistent and difficult to interpret.
+X0086,E0433,2023-08-15,Policies could be explained more clearly during onboarding.
+X0087,E0439,2025-11-23,Additional coaching would have helped performance.
+X0088,E0441,2023-09-24,"Leaving due to geographic relocation, no major concerns."
+X0089,E0442,2025-04-20,Moving cities for family. The team was supportive.
+X0090,E0447,2024-10-16,I learned a lot but wanted clearer career progression and mentorship.
+X0091,E0454,2023-10-01,Feedback cycles were inconsistent and difficult to interpret.
+X0092,E0461,2024-11-01,"Leaving due to geographic relocation, no major concerns."
+X0093,E0471,2025-01-05,Additional coaching would have helped performance.
+X0094,E0472,2025-01-22,Role expectations were harder than anticipated.
+X0095,E0478,2025-02-11,I received a stronger compensation offer elsewhere.
+X0096,E0481,2024-04-04,Opportunities for advancement felt slow compared to expectations.
+X0097,E0482,2023-02-17,I learned a lot but wanted clearer career progression and mentorship.
+X0098,E0488,2024-04-13,Moving cities for family. The team was supportive.
+X0099,E0500,2025-05-07,Relocating for personal reasons. Overall positive experience.
+X0100,E0501,2025-03-15,The pace was intense and difficult to sustain.
+X0101,E0503,2025-05-28,Feedback cycles were inconsistent and difficult to interpret.
+X0102,E0504,2023-11-02,I learned a lot but wanted clearer career progression and mentorship.
+X0103,E0505,2025-01-23,"Leaving due to geographic relocation, no major concerns."
+X0104,E0507,2025-07-26,Too many competing priorities led to burnout over time.
+X0105,E0509,2025-06-10,Role expectations were harder than anticipated.
+X0106,E0510,2025-07-18,I enjoyed the team but growth felt limited and promotion criteria were unclear.
+X0107,E0511,2025-10-09,The pace was intense and difficult to sustain.
+X0108,E0515,2024-02-21,Salary growth was slower than industry standards.
+X0109,E0517,2024-06-29,Too many competing priorities led to burnout over time.
+X0110,E0519,2025-10-09,I received a stronger compensation offer elsewhere.
+X0111,E0528,2024-06-19,I received a stronger compensation offer elsewhere.
+X0112,E0533,2024-03-17,Role expectations were harder than anticipated.
+X0113,E0544,2025-03-04,"Leaving due to geographic relocation, no major concerns."
+X0114,E0549,2024-01-23,Role expectations were harder than anticipated.
+X0115,E0552,2025-04-16,Salary growth was slower than industry standards.
+X0116,E0553,2023-02-28,Additional coaching would have helped performance.
+X0117,E0554,2024-06-20,Feedback cycles were inconsistent and difficult to interpret.
+X0118,E0556,2025-08-28,This situation was unfortunate but understandable.
+X0119,E0560,2025-01-27,Additional coaching would have helped performance.
+X0120,E0568,2025-07-27,Too many competing priorities led to burnout over time.
+X0121,E0571,2025-08-18,I understand the decision and accept responsibility.
+X0122,E0576,2024-10-24,Relocating for personal reasons. Overall positive experience.
+X0123,E0581,2025-07-05,The pace was intense and difficult to sustain.
+X0124,E0582,2025-02-24,I struggled to meet expectations and needed more structured guidance.
+X0125,E0583,2024-06-08,Role expectations were harder than anticipated.
+X0126,E0585,2023-05-01,Compensation did not match my responsibilities and market benchmarks.
+X0127,E0586,2024-04-25,Compensation did not match my responsibilities and market benchmarks.
+X0128,E0587,2024-12-26,Moving cities for family. The team was supportive.
+X0129,E0588,2023-04-04,I learned a lot but wanted clearer career progression and mentorship.
+X0130,E0593,2025-10-30,Feedback cycles were inconsistent and difficult to interpret.
+X0131,E0598,2024-09-11,Compensation did not match my responsibilities and market benchmarks.
+X0132,E0603,2025-07-13,Relocating for personal reasons. Overall positive experience.
+X0133,E0605,2025-11-29,I learned a lot but wanted clearer career progression and mentorship.
+X0134,E0606,2023-03-26,Too many competing priorities led to burnout over time.
+X0135,E0607,2024-06-17,I struggled to meet expectations and needed more structured guidance.
+X0136,E0620,2025-10-06,I received a stronger compensation offer elsewhere.
+X0137,E0630,2025-08-16,I enjoyed the team but growth felt limited and promotion criteria were unclear.
+X0138,E0632,2024-06-21,Too many competing priorities led to burnout over time.
+X0139,E0637,2025-06-05,Opportunities for advancement felt slow compared to expectations.
+X0140,E0639,2023-08-28,Compensation did not match my responsibilities and market benchmarks.
+X0141,E0640,2023-09-19,Relocating for personal reasons. Overall positive experience.
+X0142,E0641,2024-07-29,Feedback cycles were inconsistent and difficult to interpret.
+X0143,E0651,2025-05-30,Too many competing priorities led to burnout over time.
+X0144,E0664,2024-04-03,I understand the decision and accept responsibility.
+X0145,E0674,2024-06-24,This situation was unfortunate but understandable.
+X0146,E0676,2025-06-11,Workload was consistently high and deadlines were tight.
+X0147,E0677,2024-10-08,This situation was unfortunate but understandable.
+X0148,E0678,2025-10-03,This situation was unfortunate but understandable.
+X0149,E0684,2023-11-06,"Leaving due to geographic relocation, no major concerns."
+X0150,E0692,2025-06-20,Opportunities for advancement felt slow compared to expectations.
+X0151,E0693,2023-11-01,I learned a lot but wanted clearer career progression and mentorship.
+X0152,E0695,2024-12-28,Policies could be explained more clearly during onboarding.
+X0153,E0696,2024-06-16,I understand the decision and accept responsibility.
+X0154,E0702,2025-08-14,Opportunities for advancement felt slow compared to expectations.
+X0155,E0705,2025-10-10,Relocating for personal reasons. Overall positive experience.
+X0156,E0708,2024-12-31,This situation was unfortunate but understandable.
+X0157,E0713,2025-09-20,Opportunities for advancement felt slow compared to expectations.
+X0158,E0724,2023-08-19,I enjoyed the team but growth felt limited and promotion criteria were unclear.
+X0159,E0733,2023-10-31,I struggled to meet expectations and needed more structured guidance.
+X0160,E0735,2024-03-07,I understand the decision and accept responsibility.
+X0161,E0760,2024-08-04,Workload was consistently high and deadlines were tight.
+X0162,E0761,2023-12-11,Role expectations were harder than anticipated.
+X0163,E0770,2024-07-12,Role expectations were harder than anticipated.
+X0164,E0779,2024-03-10,This situation was unfortunate but understandable.
+X0165,E0783,2023-10-21,Communication with leadership could have been stronger.
+X0166,E0784,2025-09-16,I understand the decision and accept responsibility.
+X0167,E0785,2023-06-07,I received a stronger compensation offer elsewhere.
+X0168,E0786,2025-10-17,Too many competing priorities led to burnout over time.
+X0169,E0799,2025-05-13,I understand the decision and accept responsibility.
+X0170,E0807,2023-09-07,I enjoyed the team but growth felt limited and promotion criteria were unclear.
+X0171,E0812,2023-08-06,Feedback cycles were inconsistent and difficult to interpret.
+X0172,E0828,2023-11-23,I understand the decision and accept responsibility.
+X0173,E0829,2025-07-31,Salary growth was slower than industry standards.
+X0174,E0831,2025-09-09,Too many competing priorities led to burnout over time.
+X0175,E0837,2024-07-05,Relocating for personal reasons. Overall positive experience.
+X0176,E0838,2023-01-12,I learned a lot but wanted clearer career progression and mentorship.
+X0177,E0858,2023-03-31,The pace was intense and difficult to sustain.
+X0178,E0867,2025-07-16,Policies could be explained more clearly during onboarding.
+X0179,E0874,2023-09-22,The pace was intense and difficult to sustain.
+X0180,E0875,2023-04-10,I struggled to meet expectations and needed more structured guidance.
+X0181,E0881,2024-08-02,I received a stronger compensation offer elsewhere.
+X0182,E0882,2023-04-11,Expectations with my manager were not clearly aligned.
+X0183,E0892,2025-02-20,Salary growth was slower than industry standards.
+X0184,E0902,2024-10-20,Feedback cycles were inconsistent and difficult to interpret.
+X0185,E0906,2025-03-27,Communication with leadership could have been stronger.
+X0186,E0911,2024-03-02,This situation was unfortunate but understandable.
+X0187,E0916,2025-02-27,Workload was consistently high and deadlines were tight.
+X0188,E0919,2023-11-12,Expectations with my manager were not clearly aligned.
+X0189,E0929,2025-10-02,I understand the decision and accept responsibility.
+X0190,E0936,2024-10-21,Additional coaching would have helped performance.
+X0191,E0937,2025-10-14,I enjoyed the team but growth felt limited and promotion criteria were unclear.
+X0192,E0946,2025-09-07,Too many competing priorities led to burnout over time.
+X0193,E0963,2025-01-27,Expectations with my manager were not clearly aligned.
+X0194,E0968,2025-11-04,Expectations with my manager were not clearly aligned.
+X0195,E0973,2025-03-05,Expectations with my manager were not clearly aligned.
+X0196,E0975,2025-05-16,Additional coaching would have helped performance.
+X0197,E0977,2025-05-15,I received a stronger compensation offer elsewhere.
+X0198,E0990,2024-01-17,Opportunities for advancement felt slow compared to expectations.
+X0199,E0996,2025-05-22,Additional coaching would have helped performance.
+X0200,E0998,2025-11-17,Moving cities for family. The team was supportive.
