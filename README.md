@@ -140,4 +140,3 @@ This platform enables HR teams to:
 
 ---
 
-https://linkedin.com/in/sheik-mohamed-p
