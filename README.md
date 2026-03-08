@@ -1,144 +1,143 @@
-# HR Analytics Data Platform (Azure)
+# HR Workforce Analytics Platform
 
-End-to-end data engineering project that builds an HR analytics platform using Azure services and the **Medallion Architecture (Bronze → Silver → Gold)**.
+This project builds a data platform that helps HR teams analyze workforce trends, employee engagement, and attrition patterns using modern cloud data technologies.
 
-The pipeline ingests HR datasets, performs data cleaning and sentiment analysis, and exposes curated datasets for analytics and reporting.
+The goal is to transform raw HR datasets into structured insights that support workforce planning, employee retention strategies, and organizational performance analysis.
 
 ---
 
-## Project Architecture
+## Business Problem
 
-Data flows through multiple Azure services to build a scalable analytics pipeline.
+HR departments collect large volumes of employee data such as headcount records, termination information, engagement surveys, and exit interviews.  
+However, this data is often fragmented across different systems and difficult to analyze.
+
+This project creates a centralized analytics platform that enables HR teams to answer questions such as:
+
+- How is workforce headcount changing over time?
+- Which departments experience the highest attrition?
+- What sentiments do employees express during exit interviews?
+- How does engagement vary across departments?
+- Are there early signals that indicate potential turnover?
+
+---
+
+## Key HR Insights Generated
+
+The platform produces several analytics datasets that HR teams can use for decision making:
+
+- **Employee Attrition Analysis**  
+  Understand which teams or roles experience higher turnover.
+
+- **Exit Interview Sentiment**  
+  Analyze employee feedback to identify recurring concerns.
+
+- **Engagement by Department**  
+  Compare employee engagement scores across teams.
+
+- **Engagement Trend Analysis**  
+  Track changes in employee satisfaction over time.
+
+- **Workforce Headcount Trend**  
+  Monitor hiring and workforce growth patterns.
+
+---
+
+## Data Processing Approach
+
+To transform raw HR data into usable analytics datasets, the platform uses a layered data architecture.
+
+### Bronze Layer – Raw HR Data
+
+Raw HR datasets are ingested from source files and stored without modification.
+
+Examples of datasets:
+
+- Employee records
+- Workforce headcount snapshots
+- Termination records
+- Exit interview feedback
+- Employee engagement survey results
+
+---
+
+### Silver Layer – Cleaned and Enriched Data
+
+Data is cleaned and standardized to ensure it is reliable for analysis.
+
+Processing includes:
+
+- schema validation
+- missing value handling
+- duplicate removal
+- consistent data formats
+- enrichment of HR datasets
+
+Additionally, **sentiment analysis** is applied to employee feedback to classify responses as positive, neutral, or negative.
+
+---
+
+### Gold Layer – HR Analytics Datasets
+
+Curated datasets are created to support HR reporting and dashboards.
+
+Examples include:
+
+- Attrition analysis datasets
+- Exit interview sentiment insights
+- Department engagement metrics
+- Workforce growth trends
+
+These datasets are optimized for visualization and reporting tools such as Power BI.
+
+---
+
+## Technology Used
+
+The platform is implemented using cloud data engineering tools:
+
+| Technology | Purpose |
+|------|------|
+| Azure Data Factory | Data ingestion and pipeline orchestration |
+| Azure Data Lake Storage | Centralized data storage |
+| Azure Databricks | Data transformation and sentiment analysis |
+| Azure Synapse Serverless SQL | Analytical query layer |
+| Python (NLTK VADER) | Sentiment analysis |
+| Power BI | HR dashboards (planned) |
+
+---
+
+## Data Flow
+
+The data pipeline moves HR data through several processing stages.
 
 ```
-GitHub (CSV Data)
+HR Data Sources
       ↓
 Azure Data Factory
       ↓
-Azure Data Lake Storage (Bronze / Silver / Gold)
+Azure Data Lake (Raw Data)
       ↓
-Azure Databricks (Data Cleaning + Sentiment Analysis)
+Data Cleaning and Enrichment
       ↓
-Azure Synapse Serverless SQL
+Sentiment Analysis on Employee Feedback
       ↓
-Power BI (Planned Dashboards)
+Curated HR Analytics Datasets
+      ↓
+Business Intelligence Dashboards
 ```
 
 ---
 
-## Tech Stack
+## Example Use Cases
 
-| Service | Purpose |
-|------|------|
-| Azure Data Factory | Pipeline orchestration |
-| Azure Data Lake Gen2 | Data storage |
-| Azure Databricks | Data transformation and NLP |
-| Azure Synapse Serverless | Query layer and analytics views |
-| Python (NLTK VADER) | Sentiment analysis |
-| Power BI | Visualization (planned) |
+This platform enables HR teams to:
 
----
-
-## Medallion Architecture
-
-### Bronze Layer (Raw Data)
-
-Stores raw HR datasets ingested from GitHub.
-
-Datasets:
-
-- employees.csv
-- headcount_snapshot.csv
-- terminations.csv
-- exit_interviews.csv
-- engagement_survey.csv
-
-Loaded using **ADF Copy Activity**.
+- identify departments with rising attrition risk
+- understand employee sentiment from exit interviews
+- monitor workforce growth across time
+- analyze engagement trends across the organization
+- support leadership decisions with data driven insights
 
 ---
 
-### Silver Layer (Cleaned Data)
-
-Processed using **Databricks notebooks**.
-
-Transformations include:
-
-- schema validation
-- null handling
-- duplicate removal
-- data type standardization
-- sentiment analysis using **NLTK VADER**
-
-Output datasets:
-
-- employees
-- headcount_snapshot
-- terminations
-- exit_interviews_sentiment
-- engagement_survey_sentiment
-
-Stored as **Parquet files** in ADLS.
-
----
-
-### Gold Layer (Analytics Data)
-
-Curated datasets generated using **Synapse Serverless SQL** and **CETAS**.
-
-Analytics views include:
-
-- `vw_attrition_analysis`
-- `vw_exit_sentiment`
-- `vw_engagement_by_department`
-- `vw_engagement_trend`
-- `vw_headcount_trend`
-
-These datasets are optimized for BI reporting.
-
----
-
-## Azure Data Factory Pipeline
-
-Pipeline workflow:
-
-```
-ForEach (GitHub Files)
-        ↓
-Copy Activity (Load Bronze)
-        ↓
-Databricks Notebook (Bronze → Silver)
-        ↓
-Databricks Notebook (Sentiment Analysis)
-        ↓
-Synapse Script Activity (Create Gold Tables)
-```
-
----
-
-## Example Analytics
-
-The platform enables insights such as:
-
-- Employee attrition analysis
-- Exit interview sentiment analysis
-- Workforce headcount trends
-- Employee engagement trends
-- Department-level engagement comparison
-
----
-
-## Storage Structure
-
-```
-ADLS Container: hrdatalake
-
-Bronze/
-    raw HR CSV files
-
-Silver/
-    cleaned parquet datasets
-
-Gold/
-    curated analytics datasets
-```
-
+https://linkedin.com/in/sheik-mohamed-p
